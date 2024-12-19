@@ -1,0 +1,32 @@
+:root {
+    --light-blue: #2196F3;
+    --light-gray: #757575;
+    --black-color: #212121;
+}
+
+nav {
+    font-size: 14px;
+    color: var(--light-blue);
+}
+
+#second-navigation {
+    font-size: 16px;
+}
+h4{
+    color: var(--black-color);
+}
+p{
+    color: var(--light-gray);
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.transparency {
+    color: #7d7e84;
+}
+
+#not-transparency {
+    color: #ffffff;
+}

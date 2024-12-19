@@ -1,0 +1,48 @@
+:root {
+    --light-blue: #2196F3;
+    --light-gray: #757575;
+    --black-color: #212121;
+    --dark-gray: #2F303A;
+}
+
+nav {
+    font-size: 14px;
+    color: var(--light-blue);
+}
+
+#service {
+    background-color: var(--dark-gray);
+}
+
+button {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+h4 {
+    color: var(--black-color);
+}
+
+p {
+    color: var(--light-gray);
+}
+
+#team-page {
+    background-color: #F5F4FA;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.transparency {
+    color: #7d7e84;
+}
+
+#not-transparency {
+    color: #ffffff;
+}
