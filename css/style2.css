@@ -12,10 +12,12 @@ nav {
 #second-navigation {
     font-size: 16px;
 }
-h4{
+
+h4 {
     color: var(--black-color);
 }
-p{
+
+p {
     color: var(--light-gray);
 }
 
