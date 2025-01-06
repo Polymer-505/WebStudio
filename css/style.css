@@ -1,3 +1,39 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 100;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 300;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 900;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
 :root {
     --light-blue: #2196F3;
     --light-gray: #757575;
@@ -5,7 +41,13 @@
     --dark-gray: #2F303A;
 }
 
+body {
+    text-decoration: none;
+}
+
 nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 14px;
     color: var(--light-blue);
 }
@@ -15,27 +57,70 @@ nav {
 }
 
 button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: var(--light-blue);
 }
 
 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
     font-size: 44px;
     color: #ffffff;
 }
 
 h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
     color: var(--black-color);
 }
 
 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     color: var(--light-gray);
+}
+
+main>section>h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main>h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
 }
 
 #team-page {
     background-color: #F5F4FA;
 }
 
+#team-page>h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#team-page>p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     background-color: #2F303A;
 }
 
