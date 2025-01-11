@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevStudio</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
     <header>
-        <img src="./img/Portfolio/Logo-dark.jpg" alt="" width="145"> <br>
-        <br>
-        <nav>
-            <a href="index.html">Студія</a>
-            <a href="portfolio.html">Портфоліо</a>
-            <a href="#">Контакти</a>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+        <img src="./img/Portfolio/Logo-dark.jpg" alt="" width="145">
+        <nav id="nav">
+            <a class="nav-link" href="index.html">Студія</a>
+            <a class="nav-link" href="portfolio.html">Портфоліо</a>
+            <a class="nav-link" href="#">Контакти</a>
+            <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="nav-link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
         </nav>
         <br>
     </header>
@@ -25,80 +24,81 @@
     <main>
         <br><br><br>
         <section id="second-navigation">
-            <button type="button">Усі</button>
-            <button type="button">Веб-сайти</button>
-            <button type="button">Додатки</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
+            <button class="second-navigation-btn" type="button">Усі</button>
+            <button class="second-navigation-btn" type="button">Веб-сайти</button>
+            <button class="second-navigation-btn" type="button">Додатки</button>
+            <button class="second-navigation-btn" type="button">Дизайн</button>
+            <button class="second-navigation-btn" type="button">Маркетинг</button>
             <br><br><br>
         </section>
 
-        <section>
+        <section id="projects-list">
             <article class="projects">
-                <img src="./img/Portfolio/img.png" alt="">
-                <h4>Технокряк</h4>
-                <p>Веб-сайт</p>
+                <img class="projects-img" src="./img/Portfolio/img.png" alt="">
+                <h4 class="projects-name">Технокряк</h4>
+                <p class="projects-category">Веб-сайт</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(1).png" alt="">
-                <h4>Постер New Orlean vs Golden Star</h4>
-                <p>Дизайн</p>
+                <img class="projects-img" src="./img/Portfolio/img(1).png" alt="">
+                <h4 class="projects-name">Постер New Orlean vs Golden Star</h4>
+                <p class="projects-category">Дизайн</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(2).png" alt="">
-                <h4>Ресторан Seafood</h4>
-                <p>Додаток</p>
+                <img class="projects-img" src="./img/Portfolio/img(2).png" alt="">
+                <h4 class="projects-name">Ресторан Seafood</h4>
+                <p class="projects-category">Додаток</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(3).png" alt="">
-                <h4>Проєкт Prime</h4>
-                <p>Маркетинг</p>
+                <img class="projects-img" src="./img/Portfolio/img(3).png" alt="">
+                <h4 class="projects-name">Проєкт Prime</h4>
+                <p class="projects-category">Маркетинг</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(4).png" alt="">
-                <h4>Проєкт Boxes</h4>
-                <p>Додаток</p>
+                <img class="projects-img" src="./img/Portfolio/img(4).png" alt="">
+                <h4 class="projects-name">Проєкт Boxes</h4>
+                <p class="projects-category">Додаток</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(5).png" alt="">
-                <h4>Inspiration has no Borders</h4>
-                <p>Веб-сайт</p>
+                <img class="projects-img" src="./img/Portfolio/img(5).png" alt="">
+                <h4 class="projects-name">Inspiration has no Borders</h4>
+                <p class="projects-category">Веб-сайт</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(6).png" alt="">
-                <h4>Видання Limited Edition</h4>
-                <p>Дизайн</p>
+                <img class="projects-img" src="./img/Portfolio/img(6).png" alt="">
+                <h4 class="projects-name">Видання Limited Edition</h4>
+                <p class="projects-category">Дизайн</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(7).png" alt="">
-                <h4>Проєкт LAB</h4>
-                <p>Маркетинг</p>
+                <img class="projects-img" src="./img/Portfolio/img(7).png" alt="">
+                <h4 class="projects-name">Проєкт LAB</h4>
+                <p class="projects-category">Маркетинг</p>
             </article>
 
             <article class="projects">
-                <img src="./img/Portfolio/img(8).png" alt="">
-                <h4>Growing Business</h4>
-                <p>Додаток</p>
+                <img class="projects-img" src="./img/Portfolio/img(8).png" alt="">
+                <h4 class="projects-name">Growing Business</h4>
+                <p class="projects-category">Додаток</p>
             </article>
         </section>
     </main>
 
-    <footer>
-        <br><br><br>
-        <img src="./img/Portfolio/Logo-light.png" alt="" width="145"> <br> <br>
-        <a id="not-transparency" href="#">br м. Київ, пр-т Лесі Українки, 26</a> <br>
+    <footer class="footer">
+        <br><br><br><br>
+        <img class="footer-img" src="./img/Portfolio/Logo-light.png" alt="" width="145">
+        <br><br>
+        <a class="footer-street" href="#">br м. Київ, пр-т Лесі Українки, 26</a><br>
         <br>
-        <a class="transparency" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
+        <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
         <br>
-        <a class="transparency" href="tel:+38 096 111 11 11">+38 096 111 11 11</a> <br>
-        <br><br><br>
+        <a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a><br>
+        <br><br><br><br>
     </footer>
 </body>
 
