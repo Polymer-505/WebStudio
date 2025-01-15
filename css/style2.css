@@ -46,6 +46,15 @@ nav {
     color: var(--light-blue);
 }
 
+.nav-link:link,
+.nav-link:visited {
+    color: var(--black-color);
+}
+
+.nav-link:hover {
+    color: var(--light-blue);
+}
+
 a {
     text-decoration: none;
 }
