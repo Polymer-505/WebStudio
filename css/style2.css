@@ -63,6 +63,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: 2px dashed red;
+}
+
+
 .second-navigation-btn {
     line-height: 1.6;
     font-weight: 500;
