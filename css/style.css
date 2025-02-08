@@ -92,6 +92,12 @@ h1 {
     color: #ffffff;
 }
 
+.header-wrap{
+    display: flex;
+
+    padding: 17px 0;
+}
+
 .advantages-name {
     line-height: 1.1;
     font-size: 14px;
@@ -104,6 +110,12 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     color: var(--light-gray);
+}
+
+.advantages-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .about-text {
@@ -119,6 +131,11 @@ h1 {
     padding-right: 30px;
 }
 
+.about-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .team-text {
     line-height: 1.1;
     font-size: 36px;
@@ -130,11 +147,13 @@ h1 {
     background-color: #F5F4FA;
 }
 
+.team-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .team-page{
-    margin: 30px;
-    width: 300px;
-    display: inline-block;
-    overflow: hidden;
     background-color: white;
 }
 

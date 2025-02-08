@@ -67,8 +67,6 @@ body {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-
-    outline: 2px dashed red;
 }
 
 
@@ -78,6 +76,16 @@ body {
     font-size: 16px;
     background-color: #F5F4FA;
     border: none;
+}
+
+.posts-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects{
+    border: 1px solid #eeeeee;
 }
 
 .projects-name {
