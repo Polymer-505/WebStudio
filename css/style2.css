@@ -67,8 +67,21 @@ body {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+
+    outline: red solid 2px;
 }
 
+.header-wrap {
+    margin-bottom: 25px;
+}
+
+.second-navigation-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
 
 .second-navigation-btn {
     line-height: 1.6;
@@ -76,16 +89,30 @@ body {
     font-size: 16px;
     background-color: #F5F4FA;
     border: none;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.posts-wrapper{
+.second-navigation-btn:hover {
+    background-color: var(--light-blue);
+    color: white;
+}
+
+.posts-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.projects{
+.projects {
     border: 1px solid #eeeeee;
+    margin-bottom: 30px;
 }
 
 .projects-name {
@@ -93,6 +120,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: var(--black-color);
+    margin-left: 24px;
 }
 
 .projects-category {
@@ -100,6 +128,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: var(--light-gray);
+    margin-left: 24px;
 }
 
 footer {
@@ -107,6 +136,20 @@ footer {
     font-weight: 400;
     font-size: 14px;
     background-color: #2F303A;
+}
+
+.footer-img{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-street,
+.footer-email{
+    padding-bottom: 9px;
+}
+
+.footer-tel {
+    padding-bottom: 60px;
 }
 
 .footer-email:link,
