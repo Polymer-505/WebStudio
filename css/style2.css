@@ -40,22 +40,34 @@
     --black-color: #212121;
 }
 
-nav {
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    padding-left: 0px;
+}
+
+#nav-site {
+    color: black;
     font-weight: 500;
     font-size: 14px;
     color: var(--light-blue);
 }
 
-.nav-link:link,
-.nav-link:visited {
+.nav-link-site:link,
+.nav-link-site:visited,
+.nav-link-document:link,
+.nav-link-document:visited {
     color: var(--black-color);
 }
 
-.nav-link:hover {
+.nav-link-site:hover {
     color: var(--light-blue);
 }
 
-a {
+a,
+address {
     text-decoration: none;
 }
 

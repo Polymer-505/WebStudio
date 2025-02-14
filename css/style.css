@@ -53,28 +53,40 @@ body {
     outline: 2px dashed red;
 }
 
-nav {
+#nav-site {
     color: black;
     font-weight: 500;
     font-size: 14px;
     color: var(--light-blue);
 }
 
-.nav-link:link,
-.nav-link:visited {
+.nav-link-site:link,
+.nav-link-site:visited,
+.nav-link-document:link,
+.nav-link-document:visited {
     color: var(--black-color);
 }
 
-.nav-link:hover {
+.nav-link-site:hover {
     color: var(--light-blue);
 }
 
-a {
+a,
+address {
     text-decoration: none;
 }
 
 #service {
     background-color: var(--dark-gray);
+
+    padding-top: 200px;
+    padding-bottom: 210px;
+}
+
+.service-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -82,6 +94,13 @@ button {
     font-size: 16px;
     color: #ffffff;
     background-color: var(--light-blue);
+    border: none;
+    border-radius: 4px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -90,12 +109,25 @@ h1 {
     text-align: center;
     font-size: 44px;
     color: #ffffff;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
-.header-wrap{
+.header-wrap {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
 
-    padding: 17px 0;
+#advantages {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.advantages-page {
+    width: 270px;
 }
 
 .advantages-name {
@@ -118,22 +150,27 @@ h1 {
     justify-content: space-between;
 }
 
+#about {
+    margin-bottom: 94px;
+}
+
 .about-text {
     line-height: 1.1;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
-.about-img{
+.about-img {
     width: 370px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
-.about-wrap{
+.about-wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .team-text {
@@ -141,25 +178,33 @@ h1 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .team {
     background-color: #F5F4FA;
+
+    margin-top: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.team-wrap{
+.team-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.team-page{
+.team-page {
     background-color: white;
+    margin: 0px;
+    width: 270px;
 }
 
-.team-desc{
-    padding-left: 70px;
-    padding-right: 70px;
+.team-desc {
+    padding-left: 71px;
+    padding-right: 71px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -168,13 +213,13 @@ h1 {
     line-height: 1.1;
     font-weight: 500;
     font-size: 16px;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .team-work {
-    color: var(--light-gray);
-    line-height: 1.1;
-    font-weight: 400;
-    font-size: 16px;
+    margin: 0px;
 }
 
 footer {
@@ -182,6 +227,19 @@ footer {
     font-weight: 400;
     font-size: 14px;
     background-color: #2F303A;
+
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-img {
+    margin-bottom: 20px;
+}
+
+#footer-address {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-email:link,

@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <div class="container header-wrap">
-            <img class="header" src="./img/Studio/Logo-dark.jpg" alt="" width="145">
-            <nav id="nav">
+            <img src="./img/Studio/Logo-dark.jpg" alt="" width="145">
+            <nav id="nav-site">
                 <a class="nav-link-site" href="index.html">Студія</a>
                 <a class="nav-link-site" href="portfolio.html">Портфоліо</a>
                 <a class="nav-link-site" href="#">Контакти</a>
+            </nav>
+            <address id="nav-document">
                 <a class="nav-link-document" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <a class="nav-link-document" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-            </nav>
+            </address>
         </div>
     </header>
 
     <main>
         <section id="service">
-
-            <div class="container">
+            <div class="container service-wrap">
                 <h1>Ефективні рішення для вашого бізнесу</h1>
                 <button type="button">Замовити послугу</button>
             </div>
-
         </section>
 
         <section id="advantages">
@@ -64,12 +65,10 @@
                 </div>
             </div>
         </section>
-        <br><br><br>
 
         <section id="about">
             <div class="container">
                 <h2 class="about-text">Чим ми займаємося</h2>
-                <br>
                 <div class="about-wrap">
                     <img class="about-img" src="./img/Studio/box 1.jpg" alt="">
                     <img class="about-img" src="./img/Studio/box 2.png" alt="">
@@ -80,12 +79,11 @@
 
         <section class="team">
             <div class="container">
-                <br><br><br><br>
                 <h2 class="team-text">Наша команда</h2>
-                <br><br>
+
                 <div class="team-wrap">
                     <figure class="team-page">
-                        <img class="team-img" src="./img/Studio/People1.jpg" alt="" width="300"> <br>
+                        <img class="team-img" src="./img/Studio/People1.jpg" alt="" width="270"> <br>
                         <figcaption class="team-desc">
                             <h4 class="team-name">Ігор Дем'яненко</h4>
                             <p class="team-work">Product Designer</p>
@@ -93,7 +91,7 @@
                     </figure>
 
                     <figure class="team-page">
-                        <img class="team-img" src="./img/Studio/People2.jpg" alt="" width="300">
+                        <img class="team-img" src="./img/Studio/People2.jpg" alt="" width="270">
                         <figcaption class="team-desc">
                             <h4 class="team-name">Ольга Рєпіна</h4>
                             <p class="team-work">Frontend Developer</p>
@@ -101,7 +99,7 @@
                     </figure>
 
                     <figure class="team-page">
-                        <img class="team-img" src="./img/Studio/People3.jpg" alt="" width="300">
+                        <img class="team-img" src="./img/Studio/People3.jpg" alt="" width="270">
                         <figcaption class="team-desc">
                             <h4 class="team-name">Микола Тарасов</h4>
                             <p class="team-work">Marketing</p>
@@ -109,7 +107,7 @@
                     </figure>
 
                     <figure class="team-page">
-                        <img class="team-img" src="./img/Studio/People4.jpg" alt="" width="300">
+                        <img class="team-img" src="./img/Studio/People4.jpg" alt="" width="270">
                         <figcaption class="team-desc">
                             <h4 class="team-name">Михайло Єрмаков</h4>
                             <p class="team-work">UI Designer</p>
@@ -123,12 +121,9 @@
     <footer class="footer">
         <div class="container">
             <img class="footer-img" src="./img/Studio/Logo-light.png" alt="" width="145">
-            <br><br>
-            <address>
+            <address id="footer-address">
                 <a class="footer-street" href="#">м. Київ, пр-т Лесі Українки, 26</a><br>
-                <br>
                 <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-                <br>
                 <a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a><br>
             </address>
         </div>
