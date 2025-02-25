@@ -34,6 +34,10 @@
     src: url(../fonts/Roboto-Black.ttf);
 }
 
+*{
+    box-sizing: border-box;
+}
+
 :root {
     --light-blue: #2196F3;
     --light-gray: #757575;
@@ -113,14 +117,18 @@ body {
 .posts-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
     margin-bottom: 94px;
+    gap: 30px;
 }
 
 .projects {
     border: 1px solid #eeeeee;
-    margin-bottom: 30px;
+    box-sizing: border-box;
+    flex-basis: calc((100% - 60px)/3);
+}
+
+.projects-img{
+    width: 100%;
 }
 
 .projects-name {
