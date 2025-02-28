@@ -56,6 +56,13 @@ body {
     font-weight: 500;
     font-size: 14px;
     color: var(--light-blue);
+    display: flex;
+    gap: 30px;
+}
+
+#nav-document {
+    display: flex;
+    gap: 30px;
 }
 
 .nav-link-site:link,
@@ -110,6 +117,8 @@ h1 {
 
     margin-top: 0px;
     margin-bottom: 30px;
+    width: 60%;
+    text-transform: uppercase;
 }
 
 .header-wrap {
@@ -201,10 +210,9 @@ h1 {
 }
 
 .team-desc {
-    padding-left: 71px;
-    padding-right: 71px;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .team-name {
@@ -218,6 +226,7 @@ h1 {
 
 .team-work {
     margin: 0px;
+    color: var(--light-gray);
 }
 
 footer {
