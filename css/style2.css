@@ -62,6 +62,13 @@
     font-weight: 500;
     font-size: 14px;
     color: var(--light-blue);
+    display: flex;
+    gap: 30px;
+}
+
+#nav-document{
+    display: flex;
+    gap: 30px;
 }
 
 .nav-link-site:link,
