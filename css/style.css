@@ -137,26 +137,36 @@ h1 {
     width: 270px;
 }
 
-.advantages-page:nth-child(1)::before{
-    content: url(../img/Studio/Group\ 1.jpg);
+::before {
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 85px;
+    padding-bottom: 25px;
+    background-color: var(--white-gray);
 }
 
-.advantages-page:nth-child(2)::before{
-    content: url(../img/Studio/Group\ 2.jpg);
+.advantages-page:nth-child(1)::before {
+    content: url(../img/Studio/antenna\ 1.png);
 }
 
-.advantages-page:nth-child(3)::before{
-    content: url(../img/Studio/Group\ 3.jpg);
+.advantages-page:nth-child(2)::before {
+    content: url(../img/Studio/clock\ 1.png);
 }
 
-.advantages-page:nth-child(4)::before{
-    content: url(../img/Studio/Group\ 4.jpg);
+.advantages-page:nth-child(3)::before {
+    content: url(../img/Studio/diagram\ 1.png);
+}
+
+.advantages-page:nth-child(4)::before {
+    content: url(../img/Studio/astronaut\ 1.png);
 }
 
 .advantages-name {
     line-height: 1.1;
     font-size: 14px;
     font-weight: 700;
+    margin-top: 55px;
+    margin-bottom: 10px;
     color: var(--black-color);
 }
 
