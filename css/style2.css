@@ -134,6 +134,10 @@ body {
     flex-basis: calc((100% - 60px)/3);
 }
 
+.projects:hover{
+    box-shadow: 3px 4px 7px 2px rgba(0,0,0,0.41);
+}
+
 .projects-img{
     width: 100%;
 }

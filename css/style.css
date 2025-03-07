@@ -147,19 +147,19 @@ h1 {
 }
 
 .advantages-page:nth-child(1)::before {
-    content: url(../img/Studio/antenna\ 1.png);
+    content: url(../img/Studio/antenna.svg);
 }
 
 .advantages-page:nth-child(2)::before {
-    content: url(../img/Studio/clock\ 1.png);
+    content: url(../img/Studio/clock.svg);
 }
 
 .advantages-page:nth-child(3)::before {
-    content: url(../img/Studio/diagram\ 1.png);
+    content: url(../img/Studio/diagram.svg);
 }
 
 .advantages-page:nth-child(4)::before {
-    content: url(../img/Studio/astronaut\ 1.png);
+    content: url(../img/Studio/astronaut.svg);
 }
 
 .advantages-name {
@@ -234,6 +234,8 @@ h1 {
     background-color: white;
     margin: 0px;
     width: 270px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.46);
 }
 
 .team-desc {
