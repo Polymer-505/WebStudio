@@ -39,7 +39,7 @@
         <section id="service">
             <div class="container service-wrap">
                 <h1>Ефективні рішення для вашого бізнесу</h1>
-                <button type="button">Замовити послугу</button>
+                <button class="service-button" type="button" data-open_modal>Замовити послугу</button>
             </div>
         </section>
 
@@ -352,6 +352,12 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close-button" data-close_modal>&#x2715;</button>
+        </div>
+    </div>
+    <script type="module" src="/js/index.js"></script>
 </body>
 
 </html>
