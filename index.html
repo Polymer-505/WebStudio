@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -350,11 +351,59 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-mailing">
+                <h2 class="footer-mailing-text">підпишіться на розсилку</h2>
+                <div class="footer-mailing-box">
+                    <input class="footer-mailing-input" type="email" name="email" placeholder="E-mail">
+                    <button class="footer-mailing-button" type="button">Відправити<img src="./img/Studio/icon_send.svg"
+                            alt=""></button>
+                </div>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close-button" data-close_modal>&#x2715;</button>
+            <h2 class="modal-form-name">Залиште свої дані, ми вам передзвонимо</h2>
+            <form class="modal-form" action="">
+                <div class="modal-form-part">
+                    <p class="modal-form-text">Ім'я</p>
+                    <div class="modal-form-input-box">
+                        <svg class="modal-form-input-icon">
+                            <use href="./img/Studio/modal-form-icons.svg#icon-person-icon"></use>
+                        </svg>
+                        <input class="modal-form-input" type="firstname" name="firstname">
+                    </div>
+                </div>
+                <div class="modal-form-part">
+                    <p class="modal-form-text">Телефон</p>
+                    <div class="modal-form-input-box">
+                        <svg class="modal-form-input-icon">
+                            <use href="./img/Studio/modal-form-icons.svg#icon-phone-icon"></use>
+                        </svg>
+                        <input class="modal-form-input" type="number" name="number">
+                    </div>
+                </div>
+                <div class="modal-form-part">
+                    <p class="modal-form-text">Пошта</p>
+                    <div class="modal-form-input-box">
+                        <svg class="modal-form-input-icon">
+                            <use href="./img/Studio/modal-form-icons.svg#icon-email-icon"></use>
+                        </svg>
+                        <input class="modal-form-input" type="email" name="email">
+                    </div>
+                </div>
+                <div class="modal-form-part">
+                    <p class="modal-form-text">Коментар</p>
+                    <textarea class="modal-form-input-comment" name="" id="" placeholder="Введіть текст"></textarea>
+                </div>
+                <div class="modal-form-checkbox">
+                    <input class="modal-form-checkbox" type="checkbox" name="" id="modal-form-checkbox">
+                    <p class="modal-form-checkbox-text">Погоджуюся з розсилкою та приймаю <a href="#"
+                            class="modal-form-checkbox-text2">Умови договору</a></p>
+                </div>
+                <button class="modal-form-button" type="button">Відправити</button>
+            </form>
         </div>
     </div>
     <script type="module" src="./js/index.js"></script>
