@@ -63,6 +63,10 @@ body {
     gap: 30px;
 }
 
+.nav-link-site{
+    border-bottom: 4px solid var(--light-blue);
+}
+
 #nav-document {
     display: flex;
     gap: 30px;
@@ -514,10 +518,10 @@ footer {
     width: 528px;
     height: 550px;
     padding-top: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #f2f2f2;
+    background-color: #FFFFFF;
     border-radius: 5px;
 }
 
@@ -532,6 +536,7 @@ footer {
     padding-bottom: 6px;
     cursor: pointer;
 
+    background-color: #FFFFFF;
     border: 1px solid #0000001A;
     border-radius: 100px;
 }
@@ -601,7 +606,7 @@ footer {
     fill: var(--light-blue);
 }
 
-.modal-form-input {
+#modal-form-input {
     width: 448px;
     padding-top: 11px;
     padding-bottom: 11px;
