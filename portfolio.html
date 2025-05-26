@@ -12,15 +12,25 @@
 <body>
     <header class="header">
         <div class="container header-wrap">
-            <img src="./img/Studio/logo-dark.jpg" alt="" width="145">
+            <img class="webstudio-logo" src="./img/Studio/logo-dark.jpg" alt="" width="145">
             <nav id="nav-site">
                 <a class="nav-link-site" href="index.html">Студія</a>
                 <a class="nav-link-site" href="portfolio.html">Портфоліо</a>
                 <a class="nav-link-site" href="#">Контакти</a>
             </nav>
             <address id="nav-document">
-                <a class="nav-link-document" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="nav-link-document" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <a class="nav-link-document" href="mailto:info@devstudio.com">
+                    <svg class="nav-link-document-mail-icon">
+                        <use href="./img/Portfolio/symbol-defs.svg#icon-mail-icon"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+                <a class="nav-link-document" href="tel:+38 096 111 11 11">
+                    <svg class="nav-link-document-smartphone-icon">
+                        <use href="./img/Portfolio/symbol-defs.svg#icon-smartphone-icon"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
             </address>
         </div>
     </header>
@@ -167,13 +177,56 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <img class="footer-img" src="./img/Studio/logo-light.png" alt="" width="145">
-            <address id="footer-address">
-                <a class="footer-street" href="#">м. Київ, пр-т Лесі Українки, 26</a><br>
-                <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-                <a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a><br>
-            </address>
+        <div class="container footer-wrap">
+            <div class="footer-support">
+                <img class="footer-img" src="./img/Portfolio/logo-light.png" alt="" width="145">
+                <address id="footer-address">
+                    <a class="footer-street" href="#">м. Київ, пр-т Лесі Українки, 26</a><br>
+                    <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                    <a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a><br>
+                </address>
+            </div>
+            <div class="footer-social-links">
+                <h2 class="footer-social-links-text">приєднуйтесь</h2>
+                <ul class="footer-social-links-list">
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="#">
+                            <svg class="footer-social-links-icon">
+                                <use href="./img/Portfolio/symbol-defs.svg#icon-instagram-logo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="#">
+                            <svg class="footer-social-links-icon">
+                                <use href="./img/Portfolio/symbol-defs.svg#icon-twitter-logo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="#">
+                            <svg class="footer-social-links-icon">
+                                <use href="./img/Portfolio/symbol-defs.svg#icon-facebook-logo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-item">
+                        <a class="footer-social-link" href="#">
+                            <svg class="footer-social-links-icon">
+                                <use href="./img/Portfolio/symbol-defs.svg#icon-linkedin-logo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-mailing">
+                <h2 class="footer-mailing-text">підпишіться на розсилку</h2>
+                <div class="footer-mailing-box">
+                    <input class="footer-mailing-input" type="email" name="email" placeholder="E-mail">
+                    <button class="footer-mailing-button" type="button">Відправити<img src="./img/Portfolio/icon_send.svg"
+                            alt=""></button>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

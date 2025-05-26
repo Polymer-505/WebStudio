@@ -54,6 +54,10 @@ body {
     border: 2px solid red;
 }
 
+.webstudio-logo{
+    padding-bottom: 24px;
+}
+
 #nav-site {
     color: black;
     font-weight: 500;
@@ -64,12 +68,31 @@ body {
 }
 
 .nav-link-site{
-    border-bottom: 4px solid var(--light-blue);
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.nav-link-site::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: var(--light-blue);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    border-radius: 4px;
+}
+
+.nav-link-site:hover::after{
+    opacity: 1;
 }
 
 #nav-document {
     display: flex;
+    align-items: center;
     gap: 30px;
+    padding-bottom: 24px;
 }
 
 .nav-link-site:link,
@@ -152,7 +175,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 0 1px 0;
 }
 
 #advantages {
@@ -500,6 +523,7 @@ footer {
     padding-right: 28px;
 }
 
+/* Modal */
 .backdrop {
     position: fixed;
     top: 0;
