@@ -1,234 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="css/style2.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container header-wrap">
-            <img class="webstudio-logo" src="./img/Studio/logo-dark.jpg" alt="" width="145">
-            <nav id="nav-site">
-                <a class="nav-link-site" href="index.html">Студія</a>
-                <a class="nav-link-site" href="portfolio.html">Портфоліо</a>
-                <a class="nav-link-site" href="#">Контакти</a>
-            </nav>
-            <address id="nav-document">
-                <a class="nav-link-document" href="mailto:info@devstudio.com">
-                    <svg class="nav-link-document-mail-icon">
-                        <use href="./img/Portfolio/symbol-defs.svg#icon-mail-icon"></use>
-                    </svg>
-                    info@devstudio.com
-                </a>
-                <a class="nav-link-document" href="tel:+38 096 111 11 11">
-                    <svg class="nav-link-document-smartphone-icon">
-                        <use href="./img/Portfolio/symbol-defs.svg#icon-smartphone-icon"></use>
-                    </svg>
-                    +38 096 111 11 11
-                </a>
-            </address>
-        </div>
+      <div class="container header-wrap">
+        <img
+          class="webstudio-logo"
+          src="./img/Studio/logo-dark.jpg"
+          alt=""
+          width="145"
+        />
+        <nav id="nav-site">
+          <a class="nav-link-site" href="index.html">Студія</a>
+          <a class="nav-link-site" href="portfolio.html">Портфоліо</a>
+          <a class="nav-link-site" href="#">Контакти</a>
+        </nav>
+        <address id="nav-document">
+          <a class="nav-link-document" href="mailto:info@devstudio.com">
+            <svg class="nav-link-document-mail-icon">
+              <use href="./img/Portfolio/symbol-defs.svg#icon-mail-icon"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="nav-link-document" href="tel:+38 096 111 11 11">
+            <svg class="nav-link-document-smartphone-icon">
+              <use
+                href="./img/Portfolio/symbol-defs.svg#icon-smartphone-icon"
+              ></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
+        </address>
+      </div>
     </header>
     <main>
-        <section id="second-navigation">
-            <div class="container second-navigation-btn-wrap">
-                <button class="second-navigation-btn" type="button">Усі</button>
-                <button class="second-navigation-btn" type="button">Веб-сайти</button>
-                <button class="second-navigation-btn" type="button">Додатки</button>
-                <button class="second-navigation-btn" type="button">Дизайн</button>
-                <button class="second-navigation-btn" type="button">Маркетинг</button>
-            </div>
-        </section>
+      <section id="projects-list" class="portfolio">
+        <div class="container">
+          <ul class="filters-list">
+            <li class="filters-item">
+              <button class="filters-item-btn" type="button">Усі</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-item-btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-item-btn" type="button">Додатки</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-item-btn" type="button">Дизайн</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-item-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <div class="posts-wrapper">
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img1.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Технокряк</h4>
+                <p class="projects-category">Веб-сайт</p>
+              </div>
+            </article>
 
-        <section id="projects-list">
-            <div class="container posts-wrapper">
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img1.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Технокряк</h4>
-                        <p class="projects-category">Веб-сайт</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img2.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Постер New Orlean vs Golden Star</h4>
+                <p class="projects-category">Дизайн</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img2.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Постер New Orlean vs Golden Star</h4>
-                        <p class="projects-category">Дизайн</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img3.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Ресторан Seafood</h4>
+                <p class="projects-category">Додаток</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img3.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Ресторан Seafood</h4>
-                        <p class="projects-category">Додаток</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img4.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Проєкт Prime</h4>
+                <p class="projects-category">Маркетинг</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img4.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Проєкт Prime</h4>
-                        <p class="projects-category">Маркетинг</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img5.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Проєкт Boxes</h4>
+                <p class="projects-category">Додаток</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img5.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Проєкт Boxes</h4>
-                        <p class="projects-category">Додаток</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img6.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Inspiration has no Borders</h4>
+                <p class="projects-category">Веб-сайт</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img6.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Inspiration has no Borders</h4>
-                        <p class="projects-category">Веб-сайт</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img7.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Видання Limited Edition</h4>
+                <p class="projects-category">Дизайн</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img7.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Видання Limited Edition</h4>
-                        <p class="projects-category">Дизайн</p>
-                    </div>
-                </article>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img8.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Проєкт LAB</h4>
+                <p class="projects-category">Маркетинг</p>
+              </div>
+            </article>
 
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img8.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Проєкт LAB</h4>
-                        <p class="projects-category">Маркетинг</p>
-                    </div>
-                </article>
-
-                <article class="projects">
-                    <img class="projects-img" src="./img/Portfolio/img9.png" alt="">
-                    <div class="projects-overlay">
-                        <p class="projects-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
-                            функціоналу та сервісів. Все це
-                            дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                        </p>
-                    </div>
-                    <div class="projects-discription">
-                        <h4 class="projects-name">Growing Business</h4>
-                        <p class="projects-category">Додаток</p>
-                    </div>
-                </article>
-            </div>
-        </section>
+            <article class="projects">
+              <img class="projects-img" src="./img/Portfolio/img9.png" alt="" />
+              <div class="projects-overlay">
+                <p class="projects-overlay-text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="projects-discription">
+                <h4 class="projects-name">Growing Business</h4>
+                <p class="projects-category">Додаток</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container footer-wrap">
-            <div class="footer-support">
-                <img class="footer-img" src="./img/Portfolio/logo-light.png" alt="" width="145">
-                <address id="footer-address">
-                    <a class="footer-street" href="#">м. Київ, пр-т Лесі Українки, 26</a><br>
-                    <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-                    <a class="footer-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a><br>
-                </address>
-            </div>
-            <div class="footer-social-links">
-                <h2 class="footer-social-links-text">приєднуйтесь</h2>
-                <ul class="footer-social-links-list">
-                    <li class="footer-social-links-item">
-                        <a class="footer-social-link" href="#">
-                            <svg class="footer-social-links-icon">
-                                <use href="./img/Portfolio/symbol-defs.svg#icon-instagram-logo"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-links-item">
-                        <a class="footer-social-link" href="#">
-                            <svg class="footer-social-links-icon">
-                                <use href="./img/Portfolio/symbol-defs.svg#icon-twitter-logo"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-links-item">
-                        <a class="footer-social-link" href="#">
-                            <svg class="footer-social-links-icon">
-                                <use href="./img/Portfolio/symbol-defs.svg#icon-facebook-logo"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-links-item">
-                        <a class="footer-social-link" href="#">
-                            <svg class="footer-social-links-icon">
-                                <use href="./img/Portfolio/symbol-defs.svg#icon-linkedin-logo"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-mailing">
-                <h2 class="footer-mailing-text">підпишіться на розсилку</h2>
-                <div class="footer-mailing-box">
-                    <input class="footer-mailing-input" type="email" name="email" placeholder="E-mail">
-                    <button class="footer-mailing-button" type="button">Відправити<img src="./img/Portfolio/icon_send.svg"
-                            alt=""></button>
-                </div>
-            </div>
+      <div class="container footer-wrap">
+        <div class="footer-support">
+          <img
+            class="footer-img"
+            src="./img/Portfolio/logo-light.png"
+            alt=""
+            width="145"
+          />
+          <address id="footer-address">
+            <a class="footer-street" href="#">м. Київ, пр-т Лесі Українки, 26</a
+            ><br />
+            <a class="footer-email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ><br />
+            <a class="footer-tel" href="tel:+38 096 111 11 11"
+              >+38 096 111 11 11</a
+            ><br />
+          </address>
         </div>
+        <div class="footer-social-links">
+          <h2 class="footer-social-links-text">приєднуйтесь</h2>
+          <ul class="footer-social-links-list">
+            <li class="footer-social-links-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-links-icon">
+                  <use
+                    href="./img/Portfolio/symbol-defs.svg#icon-instagram-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-links-icon">
+                  <use
+                    href="./img/Portfolio/symbol-defs.svg#icon-twitter-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-links-icon">
+                  <use
+                    href="./img/Portfolio/symbol-defs.svg#icon-facebook-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-links-icon">
+                  <use
+                    href="./img/Portfolio/symbol-defs.svg#icon-linkedin-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-mailing">
+          <h2 class="footer-mailing-text">підпишіться на розсилку</h2>
+          <div class="footer-mailing-box">
+            <input
+              class="footer-mailing-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="footer-mailing-button" type="button">
+              Відправити<img src="./img/Portfolio/icon_send.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
