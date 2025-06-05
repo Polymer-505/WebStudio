@@ -605,8 +605,8 @@ footer {
   width: 528px;
   height: 581px;
   padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
   background-color: #ffffff;
   border-radius: 5px;
 
@@ -728,6 +728,7 @@ footer {
   padding-bottom: 12px;
   padding-left: 16px;
   padding-right: 16px;
+  margin-top: 4px;
 
   border: 1px solid #21212133;
 }
