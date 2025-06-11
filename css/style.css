@@ -95,7 +95,25 @@ body {
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* animation-name: tess;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal; */
 }
+
+/* @keyframes tess {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+} */
 
 #nav-document {
   display: flex;
@@ -122,13 +140,44 @@ body {
   color: var(--light-blue);
   transition-property: color;
   transition-duration: 250ms;
+
+  animation: bounceIn;
+  animation-duration: 0.7s;
+
+  /* animation-name: test;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal; */
 }
+
+/* @keyframes test {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
 
 .nav-link-document:hover {
   color: var(--light-blue);
   fill: var(--light-blue);
   transition-property: color, fill;
   transition-duration: 250ms;
+}
+
+.nav-link-document:hover .nav-link-document-mail-icon {
+  animation: zoomIn;
+  animation-duration: 0.3s;
+}
+
+.nav-link-document:hover .nav-link-document-smartphone-icon {
+  animation: jackInTheBox;
+  animation-duration: 0.5s;
 }
 
 .nav-link-document-mail-icon {
@@ -386,6 +435,9 @@ h1 {
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  animation: rubberBand;
+  animation-duration: 0.5s;
 }
 
 .team-social-links-instagram,
@@ -440,6 +492,9 @@ h1 {
   fill: var(--light-blue);
   transition-property: fill, border;
   transition-duration: 250ms;
+
+  animation: bounceIn;
+  animation-duration: 0.7s;
 }
 
 footer {
@@ -528,6 +583,9 @@ footer {
 
   fill: #ffffff;
   background-color: var(--light-blue);
+
+  animation: rubberBand;
+  animation-duration: 0.5s;
 }
 
 .footer-social-links-icon {
