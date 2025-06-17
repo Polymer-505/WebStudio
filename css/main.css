@@ -1,39 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @font-face {
   font-family: "Roboto";
   font-weight: 100;
   src: url(../fonts/Roboto-Thin.ttf);
 }
-
 @font-face {
   font-family: "Roboto";
   font-weight: 300;
   src: url(../fonts/Roboto-Light.ttf);
 }
-
 @font-face {
   font-family: "Roboto";
   font-weight: 400;
   src: url(../fonts/Roboto-Regular.ttf);
 }
-
 @font-face {
   font-family: "Roboto";
   font-weight: 500;
   src: url(../fonts/Roboto-Medium.ttf);
 }
-
 @font-face {
   font-family: "Roboto";
   font-weight: 700;
   src: url(../fonts/Roboto-Bold.ttf);
 }
-
 @font-face {
   font-family: "Roboto";
   font-weight: 900;
   src: url(../fonts/Roboto-Black.ttf);
 }
-
 :root {
   --light-blue: #2196f3;
   --medium-gray: #757575;
@@ -129,7 +160,6 @@ body {
   color: var(--light-blue);
   transition-property: color;
   transition-duration: 250ms;
-
   animation: bounceIn;
   animation-duration: 0.7s;
 }
@@ -169,15 +199,9 @@ body {
 
 #service {
   background-color: var(--dark-gray);
-  background-image: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.3) 50%
-    ),
-    url(../img/Studio/people-works.png);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/people-works.png);
   background-repeat: no-repeat;
   background-position: center;
-
   padding-top: 200px;
   padding-bottom: 210px;
 }
@@ -192,13 +216,11 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-
   color: #ffffff;
   background-color: var(--light-blue);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
@@ -211,7 +233,6 @@ h1 {
   text-align: center;
   font-size: 44px;
   color: #ffffff;
-
   margin-top: 0px;
   margin-bottom: 30px;
   width: 60%;
@@ -221,6 +242,12 @@ h1 {
 #advantages {
   margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.advantages-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .advantages-page {
@@ -267,12 +294,6 @@ h1 {
   color: var(--medium-gray);
 }
 
-.advantages-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 #about {
   margin-bottom: 94px;
 }
@@ -311,14 +332,12 @@ h1 {
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
-
-  background-color: #2f303acc;
+  background-color: rgba(47, 48, 58, 0.8);
   color: #fff;
 }
 
 .team {
   background-color: #f5f4fa;
-
   margin-top: 0px;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -357,7 +376,6 @@ h1 {
   line-height: 1.1;
   font-weight: 500;
   font-size: 16px;
-
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -383,7 +401,6 @@ h1 {
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
   fill: var(--light-gray);
 }
 
@@ -394,7 +411,6 @@ h1 {
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
   animation: rubberBand;
   animation-duration: 0.5s;
 }
@@ -437,7 +453,6 @@ h1 {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
-
   border: 1px solid var(--light-gray);
   border-radius: 4px;
   fill: var(--light-gray);
@@ -451,7 +466,6 @@ h1 {
   fill: var(--light-blue);
   transition-property: fill, border;
   transition-duration: 250ms;
-
   animation: bounceIn;
   animation-duration: 0.7s;
 }
@@ -461,7 +475,6 @@ footer {
   font-weight: 400;
   font-size: 14px;
   background-color: #2f303a;
-
   margin-top: 0px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -511,7 +524,6 @@ footer {
   margin-top: 7px;
   margin-bottom: 20px;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
@@ -527,22 +539,18 @@ footer {
   padding: 12px;
   display: flex;
   border-radius: 100px;
-
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
   fill: #ffffff;
-  background-color: #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.1019607843);
 }
 
 .footer-social-link:hover {
   transition-property: fill, background-color;
   transition-duration: 250ms;
-
   fill: #ffffff;
   background-color: var(--light-blue);
-
   animation: rubberBand;
   animation-duration: 0.5s;
 }
@@ -564,7 +572,6 @@ footer {
   margin-top: 7px;
   margin-bottom: 20px;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
@@ -579,8 +586,7 @@ footer {
   padding-right: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-
-  border: 1px solid #ffffff4d;
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
   border-radius: 4px;
   background-color: var(--dark-gray);
 }
@@ -596,14 +602,12 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 28px;
   padding-right: 28px;
 }
 
-/* Modal */
 .backdrop {
   position: fixed;
   top: 0;
@@ -611,7 +615,7 @@ footer {
   bottom: 0;
   right: 0;
   /* inset: 0; */
-  background-color: #0000001a;
+  background-color: rgba(0, 0, 0, 0.1019607843);
 }
 
 .modal {
@@ -626,7 +630,6 @@ footer {
   padding-right: 23px;
   background-color: #ffffff;
   border-radius: 5px;
-
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   transition-property: transform, opacity;
@@ -643,15 +646,13 @@ footer {
   position: absolute;
   top: 10px;
   right: 10px;
-
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 6px;
   padding-bottom: 6px;
   cursor: pointer;
-
   background-color: #ffffff;
-  border: 1px solid #0000001a;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
   border-radius: 100px;
 }
 
@@ -691,16 +692,14 @@ footer {
 .modal-form-text {
   font-size: 12px;
   font-weight: 400;
-
   color: var(--medium-gray);
 }
 
 .modal-form-input-box {
   display: flex;
   align-items: center;
-
   background-color: #ffffff;
-  border: 1px solid #21212133;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
 }
@@ -726,7 +725,6 @@ footer {
   padding-bottom: 11px;
   padding-left: 12px;
   padding-right: 12px;
-
   border: 0px solid #000000;
 }
 
@@ -746,8 +744,7 @@ footer {
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 4px;
-
-  border: 1px solid #21212133;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .modal-form-checkbox {
@@ -781,7 +778,6 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
   padding-left: 52px;
   padding-right: 52px;
   padding-top: 10px;

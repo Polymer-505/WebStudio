@@ -1,0 +1,101 @@
+#nav-site {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--light-blue);
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link-site {
+  position: relative;
+  padding-bottom: 24px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-site::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--light-blue);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  opacity: 0;
+  border-radius: 4px;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-site:hover::after {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#nav-document {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 24px;
+}
+
+.nav-link-document {
+  font-style: normal;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-site:link,
+.nav-link-site:visited,
+.nav-link-document:link,
+.nav-link-document:visited {
+  color: var(--black-color);
+}
+
+.nav-link-site:hover {
+  color: var(--light-blue);
+  transition-property: color;
+  transition-duration: 250ms;
+
+  animation: bounceIn;
+  animation-duration: 0.7s;
+}
+
+.nav-link-document:hover {
+  color: var(--light-blue);
+  fill: var(--light-blue);
+  transition-property: color, fill;
+  transition-duration: 250ms;
+}
+
+.nav-link-document:hover .nav-link-document-mail-icon {
+  animation: zoomIn;
+  animation-duration: 0.3s;
+}
+
+.nav-link-document:hover .nav-link-document-smartphone-icon {
+  animation: jackInTheBox;
+  animation-duration: 0.5s;
+}
+
+.nav-link-document-mail-icon {
+  width: 16px;
+  height: 12px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-document-smartphone-icon {
+  width: 10px;
+  height: 16px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

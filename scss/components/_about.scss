@@ -1,0 +1,42 @@
+#about {
+  margin-bottom: 94px;
+}
+
+.about-text {
+  line-height: 1.1;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.about-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.thumb {
+  position: relative;
+}
+
+.about-img {
+  width: 370px;
+}
+
+.about-img-text {
+  position: absolute;
+  bottom: 4px;
+  left: 0px;
+  margin: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: #2f303acc;
+  color: #fff;
+}
