@@ -1,0 +1,43 @@
+.footer-mailing-text {
+  font-size: 14px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-mailing-box {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-mailing-input {
+  width: 358px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 1px solid #ffffff4d;
+  border-radius: 4px;
+  background-color: var(--dark-gray);
+}
+
+.footer-mailing-button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+}

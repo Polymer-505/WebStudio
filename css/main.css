@@ -35,6 +35,10 @@ a {
   color: inherit;
 }
 
+address {
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Roboto";
   font-weight: 100;
@@ -92,7 +96,7 @@ body {
   padding: 24px 0 1px 0;
 }
 
-.webstudio-logo {
+.logo {
   padding-bottom: 24px;
 }
 
@@ -239,9 +243,13 @@ h1 {
   text-transform: uppercase;
 }
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 #advantages {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-bottom: 0px;
 }
 
 .advantages-wrap {
@@ -294,16 +302,11 @@ h1 {
   color: var(--medium-gray);
 }
 
-#about {
-  margin-bottom: 94px;
-}
-
-.about-text {
+.section-title {
   line-height: 1.1;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -325,7 +328,6 @@ h1 {
   position: absolute;
   bottom: 4px;
   left: 0px;
-  margin: 0;
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -339,17 +341,6 @@ h1 {
 .team {
   background-color: #f5f4fa;
   margin-top: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.team-text {
-  line-height: 1.1;
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 .team-wrap {
@@ -381,20 +372,16 @@ h1 {
 }
 
 .team-work {
-  margin: 0px;
   color: var(--medium-gray);
 }
 
-.team-social-links-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.social-links-list {
   padding-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.team-social-link {
+.social-links {
   padding: 12px;
   display: flex;
   border-radius: 100px;
@@ -404,7 +391,7 @@ h1 {
   fill: var(--light-gray);
 }
 
-.team-social-link:hover {
+.social-links:hover {
   fill: #ffffff;
   background-color: var(--light-blue);
   border-radius: 100px;
@@ -415,10 +402,7 @@ h1 {
   animation-duration: 0.5s;
 }
 
-.team-social-links-instagram,
-.team-social-links-twitter,
-.team-social-links-facebook,
-.team-social-links-linkedin {
+.social-links-icon {
   width: 20px;
   height: 20px;
   transition-property: fill, background-color;
@@ -426,24 +410,10 @@ h1 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.clients-text {
-  font-size: 36px;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
 .clients-logo-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .clients-logo-company {
@@ -528,43 +498,13 @@ footer {
 }
 
 .footer-social-links-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
   gap: 10px;
+  padding-bottom: 0px;
 }
 
 .footer-social-link {
-  padding: 12px;
-  display: flex;
-  border-radius: 100px;
-  transition-property: fill, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1019607843);
-}
-
-.footer-social-link:hover {
-  transition-property: fill, background-color;
-  transition-duration: 250ms;
-  fill: #ffffff;
-  background-color: var(--light-blue);
-  animation: rubberBand;
-  animation-duration: 0.5s;
-}
-
-.footer-social-links-icon {
-  width: 20px;
-  height: 20px;
-  transition-property: fill, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-links-icon:hover {
-  background-color: var(--light-blue);
 }
 
 .footer-mailing-text {
