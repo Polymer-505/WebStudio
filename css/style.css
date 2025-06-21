@@ -160,11 +160,6 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a,
-address {
-  text-decoration: none;
-}
-
 #service {
   background-color: var(--dark-gray);
   background-image: linear-gradient(
@@ -287,7 +282,6 @@ h1 {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -303,7 +297,6 @@ h1 {
   position: absolute;
   bottom: 4px;
   left: 0px;
-  margin: 0;
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -368,14 +361,10 @@ h1 {
 }
 
 .team-work {
-  margin: 0px;
   color: var(--medium-gray);
 }
 
 .team-social-links-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -430,9 +419,6 @@ h1 {
 .clients-logo-list {
   display: flex;
   justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .clients-logo-company {
@@ -521,9 +507,6 @@ footer {
 }
 
 .footer-social-links-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   gap: 10px;
 }
