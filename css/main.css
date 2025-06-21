@@ -201,6 +201,16 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: var(--light-blue);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 #service {
   background-color: var(--dark-gray);
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/people-works.png);
@@ -217,14 +227,6 @@ body {
 }
 
 .service-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: var(--light-blue);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
@@ -532,13 +534,6 @@ footer {
 }
 
 .footer-mailing-button {
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: var(--light-blue);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -629,6 +624,14 @@ footer {
   padding-bottom: 10px;
 }
 
+.modal-form-button {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .modal-form-text {
   font-size: 12px;
   font-weight: 400;
@@ -672,10 +675,6 @@ footer {
   border-color: #2196f3;
 }
 
-.modal-form-part-comment {
-  padding-bottom: 20px;
-}
-
 .modal-form-input-comment {
   width: 480px;
   height: 120px;
@@ -706,20 +705,4 @@ footer {
   font-weight: 400;
   color: var(--light-blue);
   text-decoration: underline;
-}
-
-.modal-form-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: var(--light-blue);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding-left: 52px;
-  padding-right: 52px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
