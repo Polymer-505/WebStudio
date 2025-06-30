@@ -1,4 +1,4 @@
-.footer-mailing-text {
+.mailing__text {
   font-size: 14px;
   margin-top: 7px;
   margin-bottom: 20px;
@@ -7,12 +7,12 @@
   color: #ffffff;
 }
 
-.footer-mailing-box {
+.mailing__box {
   display: flex;
   gap: 12px;
 }
 
-.footer-mailing-input {
+.mailing__input {
   width: 358px;
   padding-left: 16px;
   padding-right: 16px;
@@ -24,7 +24,7 @@
   background-color: var(--dark-gray);
 }
 
-.footer-mailing-button {
+.mailing__button {
   display: flex;
   align-items: center;
   gap: 10px;

@@ -1,0 +1,52 @@
+#nav {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--light-blue);
+  display: flex;
+  gap: 30px;
+}
+
+.nav__link {
+  position: relative;
+  padding-bottom: 24px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:link,
+  &:visited {
+    color: var(--black-color);
+  }
+
+  &:hover {
+    color: var(--light-blue);
+    transition-property: color;
+    transition-duration: 250ms;
+
+    animation: bounceIn;
+    animation-duration: 0.7s;
+  }
+
+  &::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: var(--light-blue);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    border-radius: 4px;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

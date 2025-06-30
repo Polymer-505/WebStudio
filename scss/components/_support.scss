@@ -1,0 +1,27 @@
+.support {
+  padding-top: 24px;
+  padding-right: 70px;
+}
+
+#support__address {
+  display: flex;
+  flex-direction: column;
+}
+
+.support__street,
+.support__email,
+.support__tel {
+  font-style: normal;
+}
+
+.support__email:link,
+.support__email:visited,
+.support__tel:link,
+.support__tel:visited {
+  color: #7d7e84;
+}
+
+.support__street:link,
+.support__street:visited {
+  color: #ffffff;
+}

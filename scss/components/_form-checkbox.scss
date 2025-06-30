@@ -1,10 +1,11 @@
-.modal-form-checkbox {
+.modal__form__checkbox {
   display: flex;
   gap: 8px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
-.modal-form-checkbox-text {
+.modal__form__checkbox__text {
   font-size: 14px;
   font-weight: 400;
   margin-top: 0px;
@@ -12,7 +13,7 @@
   color: var(--medium-gray);
 }
 
-.modal-form-checkbox-text2 {
+.modal__form__checkbox__text2 {
   font-size: 14px;
   font-weight: 400;
   color: var(--light-blue);

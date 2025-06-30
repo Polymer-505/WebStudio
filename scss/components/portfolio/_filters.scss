@@ -1,4 +1,4 @@
-.filters-list {
+.filters__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   margin-bottom: 50px;
 }
 
-.filters-item-btn {
+.filters__item__btn {
   line-height: 1.6;
   font-weight: 500;
   font-size: 16px;
@@ -19,7 +19,7 @@
   padding: 6px 25px;
 }
 
-.filters-item-btn:hover {
+.filters__item__btn:hover {
   background-color: var(--light-blue);
   color: white;
   transition-property: background-color, color;

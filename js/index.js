@@ -3,8 +3,8 @@ const modal = document.querySelector("[data-modal]");
 const closeBtn = document.querySelector("[data-close_modal]");
 
 const toggleModal = () => {
-    modal.classList.toggle("is-hidden");
-    document.body.classList.toggle("no-scrool")
+  modal.classList.toggle("is__hidden");
+  document.body.classList.toggle("no__scrool");
 };
 
 openBtn.addEventListener("click", toggleModal);

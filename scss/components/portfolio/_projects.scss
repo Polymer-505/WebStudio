@@ -11,17 +11,17 @@
   box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.36);
 }
 
-.projects-overlay-wrap {
+.projects__overlay__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.projects-img {
+.projects__img {
   width: 100%;
   display: block;
 }
 
-.projects-name {
+.projects__name {
   line-height: 2;
   font-weight: 700;
   font-size: 18px;
@@ -30,7 +30,7 @@
   padding-bottom: 4px;
 }
 
-.projects-category {
+.projects__category {
   line-height: 1.8;
   font-weight: 400;
   font-size: 16px;
@@ -38,7 +38,7 @@
   margin-left: 24px;
 }
 
-.projects-overlay {
+.projects__overlay {
   position: absolute;
   right: 0;
   top: 0;
@@ -51,7 +51,7 @@
   transition: transform 0.4s ease-in;
 }
 
-.projects-overlay-text {
+.projects__overlay__text {
   font-weight: 400;
   font-size: 17px;
   line-height: 28px;
@@ -59,10 +59,10 @@
   margin: 0;
 }
 
-.projects:hover .projects-overlay {
+.projects:hover .projects__overlay {
   transform: translateZ(0);
 }
 
-.projects-discription {
+.projects__discription {
   padding: 20px 0;
 }

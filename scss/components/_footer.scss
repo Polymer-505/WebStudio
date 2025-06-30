@@ -9,60 +9,10 @@ footer {
   padding-bottom: 60px;
 }
 
-.footer-wrap {
+.footer__wrap {
   display: flex;
-}
-
-.footer-support {
-  padding-right: 70px;
 }
 
 .footer-img {
   margin-bottom: 20px;
-}
-
-#footer-address {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-street,
-.footer-email,
-.footer-tel {
-  font-style: normal;
-}
-
-.footer-email:link,
-.footer-email:visited,
-.footer-tel:link,
-.footer-tel:visited {
-  color: #7d7e84;
-}
-
-.footer-street:link,
-.footer-street:visited {
-  color: #ffffff;
-}
-
-.footer-social-links {
-  padding-right: 93px;
-}
-
-.footer-social-links-text {
-  font-size: 14px;
-  margin-top: 7px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.footer-social-links-list {
-  gap: 10px;
-  padding-bottom: 0px;
-}
-
-.footer-social-link {
-  fill: #ffffff;
-  background-color: #ffffff1a;
 }

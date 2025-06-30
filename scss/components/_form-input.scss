@@ -1,4 +1,4 @@
-.modal-form-input-box {
+.modal__form__input__box {
   display: flex;
   align-items: center;
 
@@ -6,33 +6,32 @@
   border: 1px solid #21212133;
   border-radius: 4px;
   margin-top: 4px;
+
+  &:focus-within {
+    border-color: var(--light-blue);
+    fill: var(--light-blue);
+  }
 }
 
-.modal-form-input-box:focus-within {
-  border-color: var(--light-blue);
-  fill: var(--light-blue);
-}
-
-.modal-form-input-icon {
+.modal__form__input__icon {
   width: 18px;
   height: 18px;
   margin-left: 12px;
+
+  &:focus-within {
+    fill: var(--light-blue);
+  }
 }
 
-.modal-form-input-icon:focus-within {
-  fill: var(--light-blue);
-}
-
-#modal-form-input {
+#modal__form__input {
   width: 448px;
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 12px;
   padding-right: 12px;
-
   border: 0px solid #000000;
-}
 
-.modal-form-input:focus-within {
-  border-color: #2196f3;
+  &:focus-within {
+    border-color: #2196f3;
+  }
 }

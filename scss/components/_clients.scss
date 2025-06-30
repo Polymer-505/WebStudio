@@ -1,31 +1,5 @@
-.clients-logo-list {
+.clients__logo__list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-}
-
-.clients-logo-company {
-  width: 170px;
-  height: 92px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-
-  border: 1px solid var(--light-gray);
-  border-radius: 4px;
-  fill: var(--light-gray);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-logo-company:hover {
-  border-color: var(--light-blue);
-  fill: var(--light-blue);
-  transition-property: fill, border;
-  transition-duration: 250ms;
-
-  animation: bounceIn;
-  animation-duration: 0.7s;
 }
