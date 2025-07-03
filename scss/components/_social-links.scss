@@ -1,4 +1,4 @@
-.social__links__list {
+.social__list {
   padding-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -25,7 +25,7 @@
   }
 }
 
-.social__links__icon {
+.social__icon {
   width: 20px;
   height: 20px;
   transition-property: fill, background-color;

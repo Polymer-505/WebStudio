@@ -1,4 +1,4 @@
-#contact {
+.contact {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -24,17 +24,17 @@
   }
 }
 
-.contact__link:hover .contact__link__mail__icon {
+.contact__link:hover .contact__icon--mail {
   animation: zoomIn;
   animation-duration: 0.3s;
 }
 
-.contact__link:hover .contact__link__smartphone__icon {
+.contact__link:hover .contact__icon--smartphone {
   animation: jackInTheBox;
   animation-duration: 0.5s;
 }
 
-.contact__link__mail__icon {
+.contact__icon--mail {
   width: 16px;
   height: 12px;
   transition-property: fill;
@@ -42,7 +42,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link__smartphone__icon {
+.contact__icon--smartphone {
   width: 10px;
   height: 16px;
   transition-property: fill;

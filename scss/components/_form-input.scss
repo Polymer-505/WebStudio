@@ -1,4 +1,4 @@
-.modal__form__input__box {
+.form__box {
   display: flex;
   align-items: center;
 
@@ -13,7 +13,7 @@
   }
 }
 
-.modal__form__input__icon {
+.form__icon {
   width: 18px;
   height: 18px;
   margin-left: 12px;
@@ -23,7 +23,7 @@
   }
 }
 
-#modal__form__input {
+.form__input {
   width: 448px;
   padding-top: 11px;
   padding-bottom: 11px;
