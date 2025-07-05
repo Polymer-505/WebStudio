@@ -11,13 +11,12 @@
   color: #ffffff;
 }
 
-.links__list--join {
+.social__list--join {
   display: flex;
   gap: 10px;
   padding-bottom: 0px;
 }
 
 .social__links--join {
-  fill: #ffffff;
-  background-color: #ffffff1a;
+  @include join-links(#ffffff, #ffffff1a);
 }

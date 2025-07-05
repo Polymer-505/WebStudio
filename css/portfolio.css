@@ -1,15 +1,3 @@
-.portfolio {
-  padding: 94px 0;
-}
-
-.filters__list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 50px;
-}
-
 .filters__btn {
   line-height: 1.6;
   font-weight: 500;
@@ -32,10 +20,17 @@
   animation-duration: 0.5s;
 }
 
-.posts__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+.overlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  background-color: rgba(33, 150, 243, 0.8980392157);
+  transform: translateY(200%);
+  transition: transform 0.4s ease-in;
 }
 
 .projects {
@@ -46,14 +41,26 @@
   overflow: hidden;
   position: relative;
 }
-
 .projects:hover {
   box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.36);
 }
 
-.overlay__wrap {
-  position: relative;
-  overflow: hidden;
+.portfolio {
+  padding: 94px 0;
+}
+
+.filters__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.posts__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .projects__img {
@@ -78,17 +85,13 @@
   margin-left: 24px;
 }
 
-.overlay {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 62px;
-  padding-bottom: 62px;
-  background-color: rgba(33, 150, 243, 0.8980392157);
-  transform: translateY(200%);
-  transition: transform 0.4s ease-in;
+.projects__discription {
+  padding: 20px 0;
+}
+
+.overlay__wrap {
+  position: relative;
+  overflow: hidden;
 }
 
 .overlay__text {
@@ -101,8 +104,4 @@
 
 .projects:hover .overlay {
   transform: translateZ(0);
-}
-
-.projects__discription {
-  padding: 20px 0;
 }

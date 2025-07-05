@@ -1,0 +1,21 @@
+@mixin join-links($fill-color, $background) {
+  padding: 12px;
+  display: flex;
+  border-radius: 100px;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: $fill-color;
+  background-color: $background;
+
+  &:hover {
+    fill: #ffffff;
+    background-color: var(--light-blue);
+    border-radius: 100px;
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation: rubberBand;
+    animation-duration: 0.5s;
+  }
+}

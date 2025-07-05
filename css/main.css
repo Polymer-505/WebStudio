@@ -82,6 +82,39 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.form__button, .mailing__button, .hero__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: var(--light-blue);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.company__logo {
+  width: 170px;
+  height: 92px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: 1px solid var(--light-gray);
+  border-radius: 4px;
+  fill: var(--light-gray);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.company__logo:hover {
+  border-color: var(--light-blue);
+  fill: var(--light-blue);
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  animation: bounceIn;
+  animation-duration: 0.7s;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -194,16 +227,6 @@ body {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: var(--light-blue);
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .hero {
@@ -412,29 +435,6 @@ section {
   list-style: none;
 }
 
-.company__logo {
-  width: 170px;
-  height: 92px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-  border: 1px solid var(--light-gray);
-  border-radius: 4px;
-  fill: var(--light-gray);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.company__logo:hover {
-  border-color: var(--light-blue);
-  fill: var(--light-blue);
-  transition-property: fill, border;
-  transition-duration: 250ms;
-  animation: bounceIn;
-  animation-duration: 0.7s;
-}
-
 footer {
   line-height: 1.1;
   font-weight: 400;
@@ -493,15 +493,31 @@ footer {
   color: #ffffff;
 }
 
-.links__list--join {
+.social__list--join {
   display: flex;
   gap: 10px;
   padding-bottom: 0px;
 }
 
 .social__links--join {
+  padding: 12px;
+  display: flex;
+  border-radius: 100px;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1019607843);
+}
+.social__links--join:hover {
+  fill: #ffffff;
+  background-color: var(--light-blue);
+  border-radius: 100px;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation: rubberBand;
+  animation-duration: 0.5s;
 }
 
 .mailing__text {

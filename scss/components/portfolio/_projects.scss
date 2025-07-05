@@ -1,19 +1,5 @@
 .projects {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  flex-basis: calc((100% - 60px) / 3);
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.projects:hover {
-  box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.36);
-}
-
-.overlay__wrap {
-  position: relative;
-  overflow: hidden;
+  @extend %projects;
 }
 
 .projects__img {
@@ -36,31 +22,6 @@
   font-size: 16px;
   color: var(--medium-gray);
   margin-left: 24px;
-}
-
-.overlay {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 62px;
-  padding-bottom: 62px;
-  background-color: #2196f3e5;
-  transform: translateY(200%);
-  transition: transform 0.4s ease-in;
-}
-
-.overlay__text {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 28px;
-  color: #ffffff;
-  margin: 0;
-}
-
-.projects:hover .overlay {
-  transform: translateZ(0);
 }
 
 .projects__discription {
