@@ -6,14 +6,24 @@
 }
 
 .checkbox__text {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: var(--medium-gray);
 }
 
 .checkbox__text2 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: var(--light-blue);
   text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .checkbox__text{
+    font-size: 14px;
+  }
+
+  .checkbox__text2{
+    font-size: 14px;
+  }
 }

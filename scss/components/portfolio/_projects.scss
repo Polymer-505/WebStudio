@@ -27,3 +27,25 @@
 .projects__discription {
   padding: 20px 0;
 }
+
+@media (min-width: 768px) {
+  %projects {
+    flex-basis: calc((100% - 60px) / 2);
+    max-width: 100%;
+  }
+
+  .projects__discription {
+    padding: 20px 0 56px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  %projects {
+    flex-basis: calc((100% - 60px) / 3);
+    max-width: 100%;
+  }
+
+  .projects__discription {
+    padding: 20px 0;
+  }
+}

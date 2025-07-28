@@ -1,5 +1,5 @@
 .form__comment {
-  width: 480px;
+  width: 400px;
   height: 120px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -8,4 +8,10 @@
   margin-top: 4px;
 
   border: 1px solid #21212133;
+}
+
+@media (min-width: 1200px) {
+  .form__comment {
+    width: 480px;
+  }
 }

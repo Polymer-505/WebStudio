@@ -24,7 +24,7 @@
 }
 
 .form__input {
-  width: 448px;
+  width: 370px;
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 12px;
@@ -33,5 +33,11 @@
 
   &:focus-within {
     border-color: #2196f3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form__input {
+    width: 448px;
   }
 }

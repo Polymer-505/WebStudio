@@ -1,11 +1,11 @@
 .support {
-  padding-top: 24px;
-  padding-right: 70px;
+  padding: 20px 0 60px 0;
 }
 
 .support__address {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .support__street,
@@ -24,4 +24,14 @@
 .support__street:link,
 .support__street:visited {
   color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .support {
+    padding: 20px 0 0 0;
+  }
+
+  .support__address {
+    align-items: flex-start;
+  }
 }

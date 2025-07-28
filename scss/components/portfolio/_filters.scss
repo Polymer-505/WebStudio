@@ -1,11 +1,20 @@
 .filters__list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  row-gap: 15px;
+  column-gap: 11px;
   margin-bottom: 50px;
 }
 
 .filters__btn {
   @extend %filters-button;
+}
+
+@media (min-width: 768px) {
+  .filters__list {
+    row-gap: 0px;
+    column-gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }

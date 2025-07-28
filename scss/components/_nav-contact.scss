@@ -1,11 +1,9 @@
 .contact {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding-bottom: 24px;
+  display: none;
 }
 
 .contact__link {
+  font-size: 12px;
   font-style: normal;
   transition-property: color;
   transition-duration: 250ms;
@@ -35,8 +33,8 @@
 }
 
 .contact__icon--mail {
-  width: 16px;
-  height: 12px;
+  width: 14px;
+  height: 10px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,8 +42,24 @@
 
 .contact__icon--smartphone {
   width: 10px;
-  height: 16px;
+  height: 14px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
 }

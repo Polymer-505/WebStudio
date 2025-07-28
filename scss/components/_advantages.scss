@@ -1,18 +1,16 @@
 .advantages__wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .advantages__card {
-  width: 270px;
+  width: 450px;
+  margin-bottom: 70px;
 }
 
 ::before {
-  padding-left: 85px;
-  padding-right: 85px;
-  padding-top: 85px;
-  padding-bottom: 25px;
+  padding: 85px 190px 25px 190px;
   background-color: var(--white-gray);
 }
 
@@ -32,6 +30,10 @@
   content: url(../img/Studio/astronaut.svg);
 }
 
+.advantages__card:nth-child(4) {
+  margin: 0;
+}
+
 .advantages__name {
   line-height: 1.1;
   font-size: 14px;
@@ -46,4 +48,34 @@
   font-size: 14px;
   font-weight: 400;
   color: var(--medium-gray);
+}
+
+@media (min-width: 768px) {
+  .advantages__wrap {
+    gap: 24px;
+  }
+
+  .advantages__card {
+    width: 354px;
+    margin-bottom: 25px;
+  }
+
+  ::before {
+    padding: 85px 142px 25px 142px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about__wrap {
+    flex-wrap: nowrap;
+  }
+
+  .advantages__card {
+    width: 270px;
+    margin-bottom: 0px;
+  }
+
+  ::before {
+    padding: 85px 100px 25px 100px;
+  }
 }

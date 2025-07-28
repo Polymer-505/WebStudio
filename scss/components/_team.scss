@@ -7,15 +7,20 @@
 .team__wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 
 .team__page {
   background-color: white;
   margin: 0px;
-  width: 270px;
+  width: 480px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.418);
+}
+
+.team__img {
+  width: 480px;
 }
 
 .team__desc {
@@ -35,4 +40,28 @@
 
 .team__work {
   color: var(--medium-gray);
+}
+
+@media (min-width: 768px) {
+  .team__page {
+    width: 354px;
+  }
+
+  .team__img {
+    width: 354px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team__wrap {
+    flex-wrap: nowrap;
+  }
+
+  .team__page {
+    width: 270px;
+  }
+
+  .team__img {
+    width: 270px;
+  }
 }

@@ -9,12 +9,26 @@
 
 .overlay__text {
   font-weight: 400;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 1.5;
   color: #ffffff;
   margin: 0;
 }
 
 .projects:hover .overlay {
   transform: translateZ(0);
+}
+
+@media (min-width: 768px) {
+  %overlay {
+    padding-top: 49px;
+    padding-bottom: 77px;
+  }
+}
+
+@media (min-width: 1200px) {
+  %overlay {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
 }

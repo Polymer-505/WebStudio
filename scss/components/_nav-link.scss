@@ -1,10 +1,11 @@
 .nav {
-  color: black;
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--light-blue);
-  display: flex;
-  gap: 30px;
+  // color: black;
+  // font-weight: 500;
+  // font-size: 14px;
+  // color: var(--light-blue);
+  // display: flex;
+  // gap: 30px;
+  display: none;
 }
 
 .nav__link {
@@ -48,5 +49,17 @@
     transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--light-blue);
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
   }
 }

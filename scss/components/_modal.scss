@@ -13,11 +13,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding-top: 40px;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: #ffffff;
   border-radius: 5px;
 
@@ -62,7 +62,6 @@
 
 .no__scrool {
   overflow: hidden;
-  padding-right: 18px;
 }
 
 .form__name {
@@ -91,4 +90,15 @@
   padding-right: 52px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 600px;
+  }
+
+  .no__scrool {
+    padding-right: 18px;
+  }
 }

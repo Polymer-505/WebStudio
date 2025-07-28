@@ -1,3 +1,32 @@
 .logo {
-  padding-bottom: 24px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.logo--footer {
+  justify-content: center;
+}
+
+.logo__blue {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--light-blue);
+}
+
+.logo__white {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo__black {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+  .logo--footer {
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
 }

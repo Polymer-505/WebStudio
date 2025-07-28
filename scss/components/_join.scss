@@ -1,12 +1,12 @@
 .join {
-  padding-right: 93px;
+  padding-bottom: 60px;
 }
 
 .join__text {
   font-size: 14px;
-  margin-top: 7px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  text-align: center;
 
   color: #ffffff;
 }
@@ -19,4 +19,21 @@
 
 .social__links--join {
   @include join-links(#ffffff, #ffffff1a);
+}
+
+@media (min-width: 768px) {
+  .join {
+    width: 206px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .join__text {
+    text-align: left;
+  }
+
+  .join {
+    margin-right: 93px;
+  }
 }

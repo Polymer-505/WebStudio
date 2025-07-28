@@ -11,8 +11,34 @@ footer {
 
 .footer__wrap {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.footer-img {
-  margin-bottom: 20px;
+.footer__information {
+  width: 232px;
+}
+
+@media (min-width: 768px) {
+  .footer__wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    column-gap: 85px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__wrap {
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    column-gap: 0px;
+  }
+
+  .footer__information {
+    margin-right: 70px;
+  }
 }

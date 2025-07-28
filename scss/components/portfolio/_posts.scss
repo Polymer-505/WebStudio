@@ -1,5 +1,13 @@
 .posts__wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .posts__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

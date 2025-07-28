@@ -1,5 +1,15 @@
+.about {
+  display: none;
+}
+
 .about__wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+  .about {
+    display: block;
+  }
 }

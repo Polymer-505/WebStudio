@@ -1,3 +1,15 @@
 .company__logo {
   @extend %company;
 }
+
+@media (min-width: 768px) {
+  %company {
+    width: 226px;
+  }
+}
+
+@media (min-width: 1200px) {
+  %company {
+    width: 170px;
+  }
+}
