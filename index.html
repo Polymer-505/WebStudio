@@ -27,8 +27,12 @@
           <a class="nav__link" href="portfolio.html">Портфоліо</a>
           <a class="nav__link" href="#">Контакти</a>
         </nav>
-        <button class="menu">
-          <img class="menu__icon" src="./img/Studio/menu-icon.svg" alt="menu" />
+        <button class="mobile-menu__button js-open-menu">
+          <img
+            class="mobile-menu__icon"
+            src="./img/Studio/menu-icon.svg"
+            alt="menu"
+          />
         </button>
         <address class="contact">
           <a class="contact__link" href="mailto:info@devstudio.com">
@@ -46,6 +50,52 @@
             +38 096 111 11 11
           </a>
         </address>
+        <div class="mobile-menu js-menu-container">
+          <button class="mobile-menu__close js-close-menu">&#x2715;</button>
+          <nav class="mobile-menu__nav">
+            <ul class="mobile-menu__list mobile-menu__list--nav">
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__sites" href="index.html">Студія</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__sites" href="portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__sites" href="#">Контакти</a>
+              </li>
+            </ul>
+
+            <ul class="mobile-menu__list mobile-menu__list--contact">
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__number" href="tel:+38 096 111 11 11">
+                  +38 096 111 11 11
+                </a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__email" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+
+            <ul class="mobile-menu__list mobile-menu__list--links">
+              <li class="mobile-menu__social">
+                <a href="#" class="mobile-menu__link">Instagram</a>
+              </li>
+              <li class="mobile-menu__social">
+                <a href="#" class="mobile-menu__link">Twitter</a>
+              </li>
+              <li class="mobile-menu__social">
+                <a href="#" class="mobile-menu__link">Facebook</a>
+              </li>
+              <li class="mobile-menu__social">
+                <a href="#" class="mobile-menu__link">LinkedIn</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -515,5 +565,6 @@
       </div>
     </div>
     <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/mobile-menu.js"></script>
   </body>
 </html>
