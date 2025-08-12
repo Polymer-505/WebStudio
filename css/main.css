@@ -405,12 +405,17 @@ body {
 }
 .hero {
   background-color: var(--dark-gray);
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/people-works.png);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/mobile/people-works.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/mobile/people-works@2x.jpg);
+  }
 }
 
 .hero__wrap {
@@ -438,8 +443,30 @@ body {
 }
 
 @media (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/tablet/people-works.jpg);
+  }
+}
+@media (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/tablet/people-works@2x.jpg);
+  }
+}
+@media (min-width: 768px) {
   .hero__title {
     width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/desktop/people-works.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+@media (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(../img/Studio/desktop/people-works@2x.jpg);
   }
 }
 @media (min-width: 1200px) {
