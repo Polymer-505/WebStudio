@@ -10,7 +10,12 @@
 }
 
 ::before {
-  padding: 85px 190px 25px 190px;
+  // padding: 85px 190px 25px 190px;
+  max-width: 450px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--white-gray);
 }
 
@@ -56,12 +61,13 @@
   }
 
   .advantages__card {
-    width: 354px;
+    max-width: 354px;
     margin-bottom: 25px;
   }
 
   ::before {
-    padding: 85px 142px 25px 142px;
+    // padding: 85px 142px 25px 142px;
+    width: 354px;
   }
 }
 
@@ -71,11 +77,12 @@
   }
 
   .advantages__card {
-    width: 270px;
+    max-width: 270px;
     margin-bottom: 0px;
   }
 
   ::before {
-    padding: 85px 100px 25px 100px;
+    // padding: 85px 100px 25px 100px;
+    width: 270px;
   }
 }
