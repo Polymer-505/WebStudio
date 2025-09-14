@@ -79,20 +79,18 @@
 
 .mobile-menu__list--links {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .mobile-menu__social {
   border-right: 1px solid var(--medium-gray);
-  padding: 0 10px;
-}
-
-.mobile-menu__social:nth-child(1) {
-  padding-left: 0;
+  padding: 0 10px 0 0;
 }
 
 .mobile-menu__social:nth-child(4) {
   border: 0;
-  padding-right: 0;
+  padding: 0;
 }
 
 .mobile-menu__link {
